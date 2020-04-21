@@ -1,0 +1,36 @@
+/* 
+Category:-
+    1.0-Genral.
+    2.0-Comman Styles.
+    3.0-Content.
+*/
+/* 1.0-Genral. */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: capitalize;
+}
+:root{
+    --maincolor:#7B5244;
+    --fontcolor:#333;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/* 2.0-Comman Styles. */
+
+/* 3.0-Content. */
+.banner img{
+    width: 100%;
+}

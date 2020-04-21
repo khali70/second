@@ -1,0 +1,120 @@
+footer {
+  background-color: #000;
+}
+footer * {
+  color: #777;
+}
+.ft-main {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  grid-template-areas: "n1 n2 n3 n4";
+  grid-gap: 0 10px;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 8%;
+}
+.n1 {
+  grid-area: n1;
+}
+.n2 {
+  grid-area: n2;
+}
+.n3 {
+  grid-area: n3;
+}
+.n4 {
+  grid-area: n4;
+}
+.ft-sec {
+}
+img[alt="ft logo"] {
+  width: 130px;
+}
+.ft-sec p {
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin: 6% 0;
+}
+.ft-sec .app img {
+  width: 120px;
+  margin-right: 5px;
+}
+.n2,
+.n3,
+.n4 {
+  margin-top: 6%;
+}
+.ft-sec .h {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15%;
+}
+.ft-sec .ft-list li {
+  font-size: 16px;
+  margin: 5px 0;
+}
+.ft-sec.n4 {
+}
+.input-sec {
+  margin-bottom: 20px;
+  position: relative;
+}
+.input-sec input {
+  padding: 5px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #777;
+  background-color: transparent;
+  outline: 0;
+  width: 85%;
+}
+.input-sec label {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  font-size: 14px;
+  transition: color 0.5s ease-in, top 0.5s ease-out;
+}
+.input-sec input:focus + label {
+  color: #fff;
+  top: -13px;
+}
+.input-sec .send {
+  position: absolute;
+  top: 6px;
+  right: -10px;
+  width: 15%;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+.input-sec .send:hover {
+  color: #fff;
+}
+.ft-sec .ft-ic li {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 7px;
+}
+.ft-sec a,
+.ft-sec a i {
+  transition: color 0.3s ease-in-out;
+}
+.ft-sec a:hover,
+.ft-sec a:hover i {
+  color: #fff;
+}
+.ft-line {
+  border-top: 1px solid #777;
+  padding: 10px 0;
+  background-color: #000;
+  height: auto;
+  margin-top: 23px;
+}
+.ft-line span {
+  font-size: 14px;
+}
+.ft-line span a {
+  text-decoration: underline;
+}

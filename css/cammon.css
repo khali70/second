@@ -1,0 +1,59 @@
+/* section header */
+.section-header > .section-title{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 3.1rem;
+    margin-bottom: 6px;
+}
+.section-header > .section-bar{
+    display: block;
+    width: 90px;
+    height: 3px;
+    margin:  0 auto 70px auto; 
+    background-color: var(--maincolor);
+    transition: width 0.5s ease;
+}
+.section-header:hover .section-bar{
+    width: 150px;
+}
+.pd-y{
+    padding: 120px 0 0 0 ;
+}
+/* ul points */
+.point {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(50%);
+    font-size: 30px;
+    transition: opacity 0.3s ease-in-out,bottom 0.3s ease-in-out ;
+
+}
+.point li {
+    width: 20px;
+}
+.point .icon{
+    font-size: 13px;
+}
+.scale{
+    transform:   scale(1);
+    transform-origin: center;
+    transition: transform 0.1s ease-in-out;
+}
+.point .gray{
+    color: #eee;
+}
+.point .main{
+    color: var(--maincolor) ;
+}
+.scale:hover{
+    transform: scale(1.2);
+}
+.lines .line{
+    float: right;
+    width: 60px;
+    height: 2px;
+    background-color: var(--maincolor);
+    display: block;
+    margin: 20px 5px;
+}

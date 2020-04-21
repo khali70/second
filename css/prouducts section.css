@@ -1,0 +1,100 @@
+.products {
+}
+.prd-ul {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.prd-ul li {
+  padding: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: var(--fontcolor);
+}
+.prd-ul li:first-child {
+  color: var(--maincolor);
+}
+.prds {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-template-areas: "prd1 prd2 prd3" "prd4 prd5 prd6";
+  grid-gap: 0 20px;
+}
+.prd1 {
+  grid-area: prd1;
+}
+.prd2 {
+  grid-area: prd2;
+}
+.prd3 {
+  grid-area: prd3;
+}
+.prd4 {
+  grid-area: prd4;
+}
+.prd5 {
+  grid-area: prd5;
+}
+.prd6 {
+  grid-area: prd6;
+}
+
+.prds img {
+  width: 100%;
+}
+.prds .sec {
+  position: relative;
+}
+.prds .back-img {
+}
+.prds .over-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: center;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+.prds .sec:hover .over-img {
+  transform: scaleX(1);
+}
+.prds .over-img .ul-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.prds .ul-icons li {
+  width: 35px;
+  height: 35px;
+  background-color: var(--maincolor);
+  text-align: center;
+  margin: 5px;
+  border-radius: 3px;
+}
+.prds .ul-icons li i {
+  line-height: 35px;
+  color: #fff;
+}
+.inf {
+  margin-top: 25px;
+}
+.inf-d {
+  display: block;
+  margin: 15px 0;
+}
+.sec:hover .inf-d {
+  color: var(--maincolor);
+}
+.inf-price {
+  font-weight: 900;
+  font-size: 20px;
+}
+.inf-price del {
+  color: #999;
+  font-weight: 100;
+  font-size: 17px;
+}
+.actv {
+  color: goldenrod;
+}

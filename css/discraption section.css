@@ -1,0 +1,53 @@
+.vedio-sec {
+  display: grid;
+  grid-template-columns: 35% 64%;
+  grid-template-areas: "vid1 vid2";
+  grid-gap: 0 20px;
+  margin-top: 50px;
+}
+.vid1 {
+  grid-area: vid1;
+}
+.vid2 {
+  grid-area: vid2;
+}
+.vedio-sec .play {
+  position: relative;
+}
+.vedio-sec .play .back-img {
+  width: 100%;
+}
+.vedio-sec .play .hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dis {
+  padding: 20px;
+  background-color: #f7f3ef;
+  position: relative;
+}
+.dis .dis-tit {
+  padding-left: 105px;
+  margin: 15px 0 60px 0px;
+}
+.dis .date {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+.dis .date .day {
+  display: block;
+  font-size: 70px;
+  font-weight: 800;
+  color: var(--maincolor);
+  line-height: 59px;
+}
+.dis .date .month {
+  font-size: 14px;
+}
+.dis .dis-p {
+  color: #777;
+  line-height: 26px;
+}

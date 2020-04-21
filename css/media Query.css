@@ -1,0 +1,75 @@
+@media (max-width: 850px) {
+  .special-sec {
+    grid-template-areas: "n-1 n-2" "n-3 n-4";
+  }
+  .discount {
+    grid-template-areas:
+      "dis2 dis3"
+      "dis1 dis1";
+    grid-gap: 19px;
+  }
+  .vedio-sec {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "vid1"
+      "vid2";
+    grid-gap: 10px;
+  }
+  .input-sec label {
+    position: static;
+    font-size: 12px;
+  }
+}
+@media (max-width: 500px) {
+  .section-header > .section-title {
+    font-size: 2.1rem;
+  }
+  .prds {
+    grid-template-columns: 48% 48%;
+    grid-template-areas:
+      "prd1 prd2"
+      "prd3 prd4"
+      "prd5 prd6";
+    grid-gap: 15px;
+  }
+  .client img {
+    width: 25%;
+    margin: 3%;
+  }
+  .ft-main {
+    grid-template-areas:
+      "n1 n1 n1"
+      "n4 n4 n4"
+      "n2 n3 n3 ";
+    grid-template-columns: repeat(3, 33%);
+  }
+  .n1 {
+    width: 99%;
+    text-align: center;
+  }
+  .n2 {
+    width: 105%;
+    margin-left: 25%;
+  }
+  .ft-sec .n2 .h {
+  }
+  .n2,
+  .n3 {
+    margin-top: 0;
+  }
+  .n3 {
+    width: 50%;
+    margin-left: 39%;
+  }
+  .n4 {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+  }
+  .input-sec label {
+    position: absolute;
+    left: 28px;
+    top: 6px;
+    font-size: 14px;
+  }
+}

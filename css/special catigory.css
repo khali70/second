@@ -1,0 +1,192 @@
+/* sepacial category */
+.special-sec {
+  display: grid;
+  grid-template-areas: "n-1 n-2 n-3 n-4";
+  grid-gap: 15px;
+}
+.n-1 {
+  grid-area: n-1;
+}
+.n-2 {
+  grid-area: n-2;
+}
+.n-3 {
+  grid-area: n-3;
+}
+.n-4 {
+  grid-area: n-4;
+}
+/* .item {
+  min-width: 250px;
+} */
+
+.special-sec .item img {
+  width: 99%;
+  margin-bottom: 15px;
+}
+.special-sec .item .sub-tit {
+  color: #999;
+  font-weight: 400;
+  width: 80%;
+  float: left;
+}
+.special-sec .tit {
+  float: left;
+  width: 80%;
+  font-size: 20px;
+}
+.special-sec .icon {
+  font-size: 25px;
+  background-color: var(--maincolor);
+  color: #fff;
+  margin: 10px 0;
+  padding: 5px 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out;
+}
+.item:hover .icon {
+  opacity: 1;
+  visibility: visible;
+}
+/* discount section  */
+.discount {
+  margin: 75px 0;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "dis1 dis1 dis2 dis3";
+  grid-gap: 0 19px;
+}
+.g-dis1 {
+  grid-area: dis1;
+}
+.g-dis2 {
+  grid-area: dis2;
+}
+.g-dis3 {
+  grid-area: dis3;
+}
+.discount .sec {
+  padding: 20px;
+  position: relative;
+  background-color: #f7f3ef;
+}
+.discount .sec .tit {
+  padding-left: 70px;
+  margin-bottom: 25px;
+}
+.discount .sec .sub-tit {
+  font-size: 13px;
+  color: #999;
+}
+.discount .sec .icon {
+  position: absolute;
+  top: 20px;
+  font-size: 3em;
+  color: var(--maincolor);
+}
+.discount .sec .des {
+  color: #888;
+  line-height: 25px;
+}
+.discount .item {
+  position: relative;
+  overflow: hidden;
+}
+.discount .item img {
+  width: 100%;
+  transition: transform 1s ease-in-out;
+}
+.discount .item:hover img {
+  transform: scale(1.1);
+}
+.discount .item .head {
+  position: absolute;
+  top: 0;
+  padding: 20px 25px;
+}
+.discount .item .des {
+  color: #c36a4b;
+}
+/* icons */
+.sprites {
+  display: grid;
+  grid-template-areas: "sp1 sp2 sp3 sp4 sp5";
+  margin-bottom: 80px;
+}
+.sp1 {
+  grid-area: sp1;
+}
+.sp2 {
+  grid-area: sp2;
+}
+.sp3 {
+  grid-area: sp3;
+}
+.sp4 {
+  grid-area: sp4;
+}
+.sp5 {
+  grid-area: sp5;
+}
+.sp-sec:nth-child(2n) {
+  border-width: 0 1px;
+  border-style: dotted;
+  border-color: #999;
+}
+.sprites .sp-sec {
+  width: 100%;
+  text-align: center;
+  padding: 0 10px;
+}
+.sp-sec .img {
+  width: 100%;
+  height: 55px;
+  background-image: url(../images/service-icon.png);
+  background-repeat: no-repeat;
+  transition: background-position 0.5s ease-in-out;
+}
+.sp-sec .pho-1 {
+  background-position: center 5px;
+}
+.sp-sec .pho-1:hover {
+  background-position: center -85px;
+}
+.sp-sec .pho-2 {
+  background-position: center -180px;
+}
+.sp-sec .pho-2:hover {
+  background-position: center -270px;
+}
+.sp-sec .pho-3 {
+  background-position: center -550px;
+}
+.sp-sec .pho-3:hover {
+  background-position: center -640px;
+}
+.sp-sec .pho-4 {
+  background-position: center -365px;
+}
+.sp-sec .pho-4:hover {
+  background-position: center -458px;
+}
+.sp-sec .pho-5 {
+  background-position: center -735px;
+}
+.sp-sec .pho-5:hover {
+  background-position: center -825px;
+}
+.sp-sec .sp-tit {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.sp-sec .sp-dis {
+  font-size: 14px;
+  color: #888;
+  text-transform: none;
+}
+.line {
+  width: 100%;
+  background-color: #ddd;
+  height: 1px;
+}

@@ -1,0 +1,16 @@
+/* 3.0-Content. */
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+
+.banner ul{
+    opacity: 0;
+    bottom: 5px;
+}
+.banner img:hover + ul {
+    opacity: 1;
+    bottom: 10px;
+}
