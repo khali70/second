@@ -1,4 +1,4 @@
-@media screen and (max-width: 850px) {
+@media (max-width: 850px) {
   .special-sec {
     grid-template-areas: "n-1 n-2" "n-3 n-4";
   }
@@ -20,9 +20,14 @@
     font-size: 12px;
   }
 }
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .section-header > .section-title {
     font-size: 2.1rem;
+  }
+  .discount .item .head {
+    top: -20px;
+    right: -9px;
+    transform: scale(0.75);
   }
   .prds {
     grid-template-columns: 48% 48%;
@@ -31,6 +36,12 @@
       "prd3 prd4"
       "prd5 prd6";
     grid-gap: 15px;
+  }
+  .prd-ul {
+    transform: scale(0.6);
+  }
+  .prds .over-img .ul-icons {
+    transform: translate(-50%, -50%) scale(0.65);
   }
   .client img {
     width: 25%;
@@ -51,7 +62,9 @@
     width: 105%;
     margin-left: 25%;
   }
-  .ft-sec .n2 .h {
+  .ft-sec.n2 .h,
+  .ft-sec.n3 .h {
+    font-size: 19px;
   }
   .n2,
   .n3 {
@@ -70,6 +83,10 @@
     position: absolute;
     left: 28px;
     top: 6px;
-    font-size: 14px;
+    font-size: 10px;
+  }
+  .ft-ic {
+    width: 118%;
+    margin: 0 0px 19% -14%;
   }
 }
