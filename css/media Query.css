@@ -1,4 +1,4 @@
-@media (max-width: 850px) {
+@media screen and (max-width: 850px) {
   .special-sec {
     grid-template-areas: "n-1 n-2" "n-3 n-4";
   }
@@ -20,7 +20,7 @@
     font-size: 12px;
   }
 }
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .section-header > .section-title {
     font-size: 2.1rem;
   }
